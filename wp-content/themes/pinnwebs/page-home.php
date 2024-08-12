@@ -7,7 +7,7 @@ get_header();
 
 ?>
 
-<section class="about custom-margin-60" id="about">
+<section class="about custom-margin-60">
   <div class="about-text" data-aos="zoom-in-up">
     <h2>Hi, Therer</h2>
     <div class="exp-area">
@@ -27,9 +27,19 @@ get_header();
       <a href="https://wa.me/94771703811" target="_blank" class="btn btn2">WhatsApp Now</a>
     </div>  
   </div>
-  <div class="about-img" data-aos="zoom-in-down">
-    <?php echo do_shortcode('[my_hero_image_component]');?>
-  </div>
+  <div class="" data-aos="zoom-in-down">
+  <div class="card-container">
+      <div class="card">
+            <div class="img-content">
+                <img class="width-100" src="<?php echo get_template_directory_uri(); ?>/img/banner-pinnwebs.png" alt="">
+            </div>
+            <div class="content">
+              <p class="heading">Transform Your Digital Presence with Pinnacle Web Solutions</p>
+                <p>Elevate your online presence with Pinnacle Web Solutions. We specialize in crafting innovative, high-performance websites tailored to your unique needs. Our expert team blends cutting-edge technology with creative design to ensure your business stands out in the digital world. From sleek, responsive designs to powerful functionality, trust Pinnacle Web Solutions to take your web strategy to the next level.</p>
+            </div>
+        </div>
+      </div>  
+    </div>
 
 </section>
 
@@ -119,7 +129,7 @@ get_header();
                 <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/5.png" alt="Logo 5"></div>
             </div>
         </div>
-      </div>
+    </div>
   <div class="custom-btn"> 
     <a href="<?php bloginfo('url'); ?>/services" class="btn">View All Web Development Services</a>
   </div>
@@ -155,6 +165,23 @@ get_header();
         </div>
       <?php endwhile; endif; ?>
   </div>
+  <div class="caro-container">
+          <div class="carousel">
+            <div class="carousel__track">
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/5.png" alt="Logo 1"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/5.png" alt="Logo 2"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/5.png"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/5.png"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/5.png" alt="Logo 5"></div>
+                <!-- Repeat logos to create the infinite effect -->
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/5.png" alt="Logo 1"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/5.png" alt="Logo 2"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/5.png" alt="Logo 3"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/5.png" alt="Logo 4"></div>
+                <div class="carousel__slide"><img src="<?php echo get_template_directory_uri(); ?>/img/5.png" alt="Logo 5"></div>
+            </div>
+        </div>
+    </div>
   <div class="custom-btn">
     <a href="<?php bloginfo('url'); ?>/design-services" class="btn">View All Web Design Services</a>
   </div>
@@ -197,80 +224,42 @@ get_header();
   </div>
 
   <div class="Portfolio-content" data-aos="zoom-in-up">
+  <?php $the_query = new WP_Query(array('post_type' => 'portfolio', 'posts_per_page' => '100', 'post__not_in' => array($id), )); ?>
+      <?php if ($the_query->have_posts()):
+        while ($the_query->have_posts()):
+          $the_query->the_post(); ?>
+
+          <?php
+          $thumbnail_id = get_post_thumbnail_id();
+          $thumbnail_url = wp_get_attachment_image_src($thumbnail_id, 'thumbnail-size', true);
+          $thumbnail_meta = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
+
+          $categories = get_the_category();
+          ?>
     <div class="row">
-      <img src=".<?php echo get_template_directory_uri(); ?>/img/port-1.jpg" alt="">
-      <div class="main-row">
-        <div class="row-text">
-          <h5>Website Design</h5>
+              <?php
+                 if ( has_post_thumbnail() ) {
+					        $attachment_image = wp_get_attachment_url( get_post_thumbnail_id() );
+				      ?>
+          <img src="<?php echo $attachment_image; ?>" alt="">
+          <?php } ?>  
+          <div class="main-row">
+            <div class="row-text">
+              <h5><?php the_title(); ?></h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4><?php the_excerpt(); ?></h4>
         </div>
-        <div class="row-icon">
-          <i class="ri-github-fill"></i>
-        </div>
-      </div>
-      <h4>Website Development For Dark X</h4>
-    </div>
-    <div class="row">
-      <img src=".<?php echo get_template_directory_uri(); ?>/img/port-2.jpg" alt="">
-      <div class="main-row">
-        <div class="row-text">
-          <h5>Website Design</h5>
-        </div>
-        <div class="row-icon">
-          <i class="ri-github-fill"></i>
-        </div>
-      </div>
-      <h4>Website Development For Dark X</h4>
-    </div>
-    <div class="row">
-      <img src=".<?php echo get_template_directory_uri(); ?>/img/port-3.jpg" alt="">
-      <div class="main-row">
-        <div class="row-text">
-          <h5>Website Design</h5>
-        </div>
-        <div class="row-icon">
-          <i class="ri-github-fill"></i>
-        </div>
-      </div>
-      <h4>Website Development For Dark X</h4>
-    </div>
-    <div class="row">
-      <img src=".<?php echo get_template_directory_uri(); ?>/img/port-4.jpg" alt="">
-      <div class="main-row">
-        <div class="row-text">
-          <h5>Website Design</h5>
-        </div>
-        <div class="row-icon">
-          <i class="ri-github-fill"></i>
-        </div>
-      </div>
-      <h4>Website Development For Dark X</h4>
-    </div>
-    <div class="row">
-      <img src=".<?php echo get_template_directory_uri(); ?>/img/port-5.jpg" alt="">
-      <div class="main-row">
-        <div class="row-text">
-          <h5>Website Design</h5>
-        </div>
-        <div class="row-icon">
-          <i class="ri-github-fill"></i>
-        </div>
-      </div>
-      <h4>Website Development For Dark X</h4>
-    </div>
-    <div class="row">
-      <img src=".<?php echo get_template_directory_uri(); ?>/img/port-6.jpg" alt="">
-      <div class="main-row">
-        <div class="row-text">
-          <h5>Website Design</h5>
-        </div>
-        <div class="row-icon">
-          <i class="ri-github-fill"></i>
-        </div>
-      </div>
-      <h4>Website Development For Dark X</h4>
+      <?php endwhile; endif; ?>
+      <?php wp_reset_postdata(); ?>  <!-- Important to reset post data after a custom query -->
     </div>
   </div>
-
+  <div class="custom-btn">
+    <a href="<?php bloginfo('url'); ?>/design-services" class="btn">View All of My Portfolio</a>
+  </div>
 </section>
 
 <section class="contact" id="contact">
@@ -292,3 +281,4 @@ get_header();
   <script>
 
   </script>
+

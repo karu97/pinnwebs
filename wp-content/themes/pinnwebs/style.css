@@ -589,6 +589,10 @@ color: var(--other-color);
     fill: #212121;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
+
+  .width-100 {
+    width: 100%;
+  }
   
   .card .content {
     position: absolute;
@@ -613,6 +617,11 @@ color: var(--other-color);
   .card .content .heading {
     font-size: 32px;
     font-weight: 700;
+    color: #bae6fd;
+  }
+
+  .card p {
+    color: #a5f3fc;
   }
   
   .card:hover .content {

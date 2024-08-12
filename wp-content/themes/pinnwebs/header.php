@@ -20,14 +20,13 @@
   <?php wp_body_open(); ?>
 
   <header>
-    <a href="<?php bloginfo('url'); ?>/" class=""><img class="pinnwebs-logo"
-        src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></a>
+    <a href="<?php bloginfo('url'); ?>/" class=""> <img class="pinnwebs-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></a>
     <ul class="navlist">
       <li><a href="<?php bloginfo('url'); ?>/">Home</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="<?php bloginfo('url'); ?>/services">Services</a></li>
+      <li><a href="<?php bloginfo('url'); ?>/portfolio">Portfolio</a></li>
+      <li><a href="<?php bloginfo('url'); ?>/">Contact</a></li>
     </ul>
     <div class="top-btnn">
       <a href="#contact" class="h-btn header-contact-btn">Contact me</a>
