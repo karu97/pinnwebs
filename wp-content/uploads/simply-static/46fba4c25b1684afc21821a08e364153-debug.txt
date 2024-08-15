@@ -1,0 +1,832 @@
+[2024-08-15 16:34:16] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-08-15 16:34:16] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-08-15 16:34:16] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-08-15 16:34:18] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-08-15 16:34:18] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-08-15 16:34:18] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-08-15 16:34:18] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656\
+[2024-08-15 16:34:18] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/pinnwebs/
+[2024-08-15 16:34:18] [class-ss-setup-task.php:137] File C:\xampp\htdocs\pinnwebs\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/pinnwebs/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-08-15 16:34:18] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-08-15 16:34:18] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-15 16:34:18] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-15 16:34:18] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-08-15 16:34:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/
+[2024-08-15 16:34:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-08-15 16:34:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e0a56d86-QXBEMJ.tmp
+[2024-08-15 16:34:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/?simply_static_page=1
+[2024-08-15 16:34:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/?simply_static_page=1
+[2024-08-15 16:34:19] [class-ss-url-fetcher.php:103] Filesize: 33408 bytes
+[2024-08-15 16:34:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:20] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-08-15 16:34:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e0a56d86-QXBEMJ.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/index.html
+[2024-08-15 16:34:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:34:22] [class-ss-fetch-urls-task.php:159] Adding 36 URLs to the queue
+[2024-08-15 16:34:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:34:22] [class-ss-page.php:118] Checking Content Identical:b22220e8a8cc380af50386885d2ed92d010e9648===. Value: FALSE
+[2024-08-15 16:34:22] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/pinnwebs/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-08-15 16:34:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-08-15 16:34:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:22] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-08-15 16:34:22] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-08-15 16:34:22] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-15 16:34:22] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-15 16:34:22] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-15 16:34:22] [class-ss-fetch-urls-task.php:69] Total pages: 37; Pages remaining: 35
+[2024-08-15 16:34:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services
+[2024-08-15 16:34:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 37
+[2024-08-15 16:34:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e0edb8d2-Ve5U6S.tmp
+[2024-08-15 16:34:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services?simply_static_page=3
+[2024-08-15 16:34:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services?simply_static_page=3
+[2024-08-15 16:34:24] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-08-15 16:34:24] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:24] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-15 16:34:24] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/pinnwebs/services/
+[2024-08-15 16:34:24] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-08-15 16:34:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/portfolio
+[2024-08-15 16:34:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 37
+[2024-08-15 16:34:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e1057be0-bJ21fn.tmp
+[2024-08-15 16:34:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/portfolio?simply_static_page=4
+[2024-08-15 16:34:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/portfolio?simply_static_page=4
+[2024-08-15 16:34:25] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-08-15 16:34:25] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:25] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-15 16:34:25] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/pinnwebs/portfolio/
+[2024-08-15 16:34:25] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-08-15 16:34:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/website-maintenance-and-support//
+[2024-08-15 16:34:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 37
+[2024-08-15 16:34:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e11ee18b-qnGPWz.tmp
+[2024-08-15 16:34:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/website-maintenance-and-support//?simply_static_page=5
+[2024-08-15 16:34:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/website-maintenance-and-support//?simply_static_page=5
+[2024-08-15 16:34:27] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-08-15 16:34:27] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:27] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-15 16:34:27] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/pinnwebs/services/website-maintenance-and-support/
+[2024-08-15 16:34:27] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-08-15 16:34:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/progressive-web-apps-pwa//
+[2024-08-15 16:34:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 37
+[2024-08-15 16:34:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e141edbe-GYNy9F.tmp
+[2024-08-15 16:34:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/progressive-web-apps-pwa//?simply_static_page=6
+[2024-08-15 16:34:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/progressive-web-apps-pwa//?simply_static_page=6
+[2024-08-15 16:34:30] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-08-15 16:34:30] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:30] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-15 16:34:30] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/pinnwebs/services/progressive-web-apps-pwa/
+[2024-08-15 16:34:30] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-08-15 16:34:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/database-design-and-management//
+[2024-08-15 16:34:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 37
+[2024-08-15 16:34:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e17008b1-MUA5ck.tmp
+[2024-08-15 16:34:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/database-design-and-management//?simply_static_page=7
+[2024-08-15 16:34:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/database-design-and-management//?simply_static_page=7
+[2024-08-15 16:34:33] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-08-15 16:34:33] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:33] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-15 16:34:33] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/pinnwebs/services/database-design-and-management/
+[2024-08-15 16:34:33] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-08-15 16:34:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/frontend-development//
+[2024-08-15 16:34:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 37
+[2024-08-15 16:34:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e19b7b14-oHP9no.tmp
+[2024-08-15 16:34:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/frontend-development//?simply_static_page=8
+[2024-08-15 16:34:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/frontend-development//?simply_static_page=8
+[2024-08-15 16:34:35] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-08-15 16:34:35] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-15 16:34:35] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/pinnwebs/services/frontend-development/
+[2024-08-15 16:34:35] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-08-15 16:34:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/backend-development//
+[2024-08-15 16:34:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 37
+[2024-08-15 16:34:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e1c15c08-QImIu2.tmp
+[2024-08-15 16:34:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/backend-development//?simply_static_page=9
+[2024-08-15 16:34:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/backend-development//?simply_static_page=9
+[2024-08-15 16:34:38] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-08-15 16:34:38] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:38] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-15 16:34:38] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/pinnwebs/services/backend-development/
+[2024-08-15 16:34:38] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-08-15 16:34:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/api-development-and-integration//
+[2024-08-15 16:34:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 37
+[2024-08-15 16:34:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e1e56ca3-oNFjN2.tmp
+[2024-08-15 16:34:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/api-development-and-integration//?simply_static_page=10
+[2024-08-15 16:34:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/api-development-and-integration//?simply_static_page=10
+[2024-08-15 16:34:39] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-08-15 16:34:39] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:40] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-15 16:34:40] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/pinnwebs/services/api-development-and-integration/
+[2024-08-15 16:34:40] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-08-15 16:34:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/design_services/seo-friendly-design/
+[2024-08-15 16:34:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 37
+[2024-08-15 16:34:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e2024d0e-do2zgI.tmp
+[2024-08-15 16:34:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/design_services/seo-friendly-design/?simply_static_page=11
+[2024-08-15 16:34:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/design_services/seo-friendly-design/?simply_static_page=11
+[2024-08-15 16:34:41] [class-ss-url-fetcher.php:103] Filesize: 18523 bytes
+[2024-08-15 16:34:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:42] [class-ss-url-fetcher.php:233] New filename for static page: /design_services/seo-friendly-design/index.html
+[2024-08-15 16:34:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e2024d0e-do2zgI.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/design_services/seo-friendly-design/index.html
+[2024-08-15 16:34:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:34:42] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:34:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:34:42] [class-ss-page.php:118] Checking Content Identical:92f0b5d4fa44e08506ad5ad1689a85bca5f78f5c===. Value: FALSE
+[2024-08-15 16:34:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/design_services/accessibility-design/
+[2024-08-15 16:34:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 37
+[2024-08-15 16:34:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e22bcafa-0weIRG.tmp
+[2024-08-15 16:34:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/design_services/accessibility-design/?simply_static_page=12
+[2024-08-15 16:34:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/design_services/accessibility-design/?simply_static_page=12
+[2024-08-15 16:34:45] [class-ss-url-fetcher.php:103] Filesize: 19047 bytes
+[2024-08-15 16:34:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:45] [class-ss-url-fetcher.php:233] New filename for static page: /design_services/accessibility-design/index.html
+[2024-08-15 16:34:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e22bcafa-0weIRG.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/design_services/accessibility-design/index.html
+[2024-08-15 16:34:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:34:46] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-08-15 16:34:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:34:46] [class-ss-page.php:118] Checking Content Identical:8e906d68688b21f2f332e9c19bca2dfb012ce6a1===. Value: FALSE
+[2024-08-15 16:34:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/design_services/illustration-and-animation/
+[2024-08-15 16:34:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 37
+[2024-08-15 16:34:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e26a7080-HqpTev.tmp
+[2024-08-15 16:34:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/design_services/illustration-and-animation/?simply_static_page=13
+[2024-08-15 16:34:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/design_services/illustration-and-animation/?simply_static_page=13
+[2024-08-15 16:34:48] [class-ss-url-fetcher.php:103] Filesize: 19435 bytes
+[2024-08-15 16:34:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:49] [class-ss-url-fetcher.php:233] New filename for static page: /design_services/illustration-and-animation/index.html
+[2024-08-15 16:34:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e26a7080-HqpTev.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/design_services/illustration-and-animation/index.html
+[2024-08-15 16:34:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:34:49] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:34:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:34:49] [class-ss-page.php:118] Checking Content Identical:588c05f0abeb73aa1e55651bc474ebc45fb6a147===. Value: FALSE
+[2024-08-15 16:34:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/design_services/user-testing-and-research/
+[2024-08-15 16:34:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 37
+[2024-08-15 16:34:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e29db273-uKQpV3.tmp
+[2024-08-15 16:34:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/design_services/user-testing-and-research/?simply_static_page=14
+[2024-08-15 16:34:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/design_services/user-testing-and-research/?simply_static_page=14
+[2024-08-15 16:34:51] [class-ss-url-fetcher.php:103] Filesize: 18559 bytes
+[2024-08-15 16:34:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:51] [class-ss-url-fetcher.php:233] New filename for static page: /design_services/user-testing-and-research/index.html
+[2024-08-15 16:34:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e29db273-uKQpV3.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/design_services/user-testing-and-research/index.html
+[2024-08-15 16:34:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:34:51] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:34:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:34:51] [class-ss-page.php:118] Checking Content Identical:2817ab4860fe838fdab383dda07e0ac802f91f9c===. Value: FALSE
+[2024-08-15 16:34:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/design_services/wireframing-and-prototyping/
+[2024-08-15 16:34:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 37
+[2024-08-15 16:34:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e2c19109-60sJLm.tmp
+[2024-08-15 16:34:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/design_services/wireframing-and-prototyping/?simply_static_page=15
+[2024-08-15 16:34:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/design_services/wireframing-and-prototyping/?simply_static_page=15
+[2024-08-15 16:34:54] [class-ss-url-fetcher.php:103] Filesize: 18571 bytes
+[2024-08-15 16:34:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:54] [class-ss-url-fetcher.php:233] New filename for static page: /design_services/wireframing-and-prototyping/index.html
+[2024-08-15 16:34:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e2c19109-60sJLm.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/design_services/wireframing-and-prototyping/index.html
+[2024-08-15 16:34:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:34:54] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:34:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:34:55] [class-ss-page.php:118] Checking Content Identical:06cf8182385fba050e6ee9112d1f201c8d016f3f===. Value: FALSE
+[2024-08-15 16:34:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/design_services/branding-and-identity-design/
+[2024-08-15 16:34:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 37
+[2024-08-15 16:34:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e2f1e097-G4OVjK.tmp
+[2024-08-15 16:34:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/design_services/branding-and-identity-design/?simply_static_page=16
+[2024-08-15 16:34:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/design_services/branding-and-identity-design/?simply_static_page=16
+[2024-08-15 16:34:56] [class-ss-url-fetcher.php:103] Filesize: 18577 bytes
+[2024-08-15 16:34:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:56] [class-ss-url-fetcher.php:233] New filename for static page: /design_services/branding-and-identity-design/index.html
+[2024-08-15 16:34:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e2f1e097-G4OVjK.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/design_services/branding-and-identity-design/index.html
+[2024-08-15 16:34:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:34:57] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:34:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:34:57] [class-ss-page.php:118] Checking Content Identical:67f1c1b03e57eaced6ebc2e35f972b7a24587e9c===. Value: FALSE
+[2024-08-15 16:34:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/design-services
+[2024-08-15 16:34:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 37
+[2024-08-15 16:34:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:34:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e31a604e-ZdKcjX.tmp
+[2024-08-15 16:34:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/design-services?simply_static_page=17
+[2024-08-15 16:34:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/design-services?simply_static_page=17
+[2024-08-15 16:34:59] [class-ss-url-fetcher.php:103] Filesize: 16187 bytes
+[2024-08-15 16:34:59] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:34:59] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-15 16:34:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e33a26a4-uM9Ngt.tmp
+[2024-08-15 16:34:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/design-services
+[2024-08-15 16:35:00] [class-ss-url-fetcher.php:103] Filesize: 16187 bytes
+[2024-08-15 16:35:00] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:00] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-15 16:35:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/other_serices/devops-and-cloud-services/
+[2024-08-15 16:35:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 37
+[2024-08-15 16:35:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e3510347-d853Um.tmp
+[2024-08-15 16:35:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/other_serices/devops-and-cloud-services/?simply_static_page=18
+[2024-08-15 16:35:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/other_serices/devops-and-cloud-services/?simply_static_page=18
+[2024-08-15 16:35:02] [class-ss-url-fetcher.php:103] Filesize: 18547 bytes
+[2024-08-15 16:35:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:02] [class-ss-url-fetcher.php:233] New filename for static page: /other_serices/devops-and-cloud-services/index.html
+[2024-08-15 16:35:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e3510347-d853Um.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/other_serices/devops-and-cloud-services/index.html
+[2024-08-15 16:35:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:03] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:03] [class-ss-page.php:118] Checking Content Identical:1cb9eb17824783d41759e2cba66f967e312c5ded===. Value: FALSE
+[2024-08-15 16:35:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/other_serices/security-enhancements/
+[2024-08-15 16:35:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 37
+[2024-08-15 16:35:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e37d401a-exrp1a.tmp
+[2024-08-15 16:35:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/other_serices/security-enhancements/?simply_static_page=19
+[2024-08-15 16:35:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/other_serices/security-enhancements/?simply_static_page=19
+[2024-08-15 16:35:05] [class-ss-url-fetcher.php:103] Filesize: 18523 bytes
+[2024-08-15 16:35:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:05] [class-ss-url-fetcher.php:233] New filename for static page: /other_serices/security-enhancements/index.html
+[2024-08-15 16:35:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e37d401a-exrp1a.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/other_serices/security-enhancements/index.html
+[2024-08-15 16:35:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:06] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:06] [class-ss-page.php:118] Checking Content Identical:2ed725d08e344bf71b0780974771c9ebb2ba2845===. Value: FALSE
+[2024-08-15 16:35:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/other_serices/performance-optimization/
+[2024-08-15 16:35:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 37
+[2024-08-15 16:35:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e3a83d76-U7GfeJ.tmp
+[2024-08-15 16:35:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/other_serices/performance-optimization/?simply_static_page=20
+[2024-08-15 16:35:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/other_serices/performance-optimization/?simply_static_page=20
+[2024-08-15 16:35:08] [class-ss-url-fetcher.php:103] Filesize: 18541 bytes
+[2024-08-15 16:35:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:08] [class-ss-url-fetcher.php:233] New filename for static page: /other_serices/performance-optimization/index.html
+[2024-08-15 16:35:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e3a83d76-U7GfeJ.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/other_serices/performance-optimization/index.html
+[2024-08-15 16:35:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:09] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:09] [class-ss-page.php:118] Checking Content Identical:bf4a5e9768c83691219704da941708ed09539d4b===. Value: FALSE
+[2024-08-15 16:35:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/logo.png
+[2024-08-15 16:35:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 37
+[2024-08-15 16:35:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e3d543a0-MM3oNo.tmp
+[2024-08-15 16:35:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/logo.png?simply_static_page=21
+[2024-08-15 16:35:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/logo.png?simply_static_page=21
+[2024-08-15 16:35:09] [class-ss-url-fetcher.php:103] Filesize: 14580 bytes
+[2024-08-15 16:35:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-08-15 16:35:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/pinnwebs/img/logo.png
+[2024-08-15 16:35:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e3d543a0-MM3oNo.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-content/themes/pinnwebs/img/logo.png
+[2024-08-15 16:35:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:09] [class-ss-page.php:118] Checking Content Identical:a3fb04a8fe188428d33165024f9068d03e847337===. Value: FALSE
+[2024-08-15 16:35:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/banner-pinnwebs.png
+[2024-08-15 16:35:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 37
+[2024-08-15 16:35:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e3dadc8d-08bwOo.tmp
+[2024-08-15 16:35:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/banner-pinnwebs.png?simply_static_page=22
+[2024-08-15 16:35:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/banner-pinnwebs.png?simply_static_page=22
+[2024-08-15 16:35:09] [class-ss-url-fetcher.php:103] Filesize: 23370 bytes
+[2024-08-15 16:35:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-08-15 16:35:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/pinnwebs/img/banner-pinnwebs.png
+[2024-08-15 16:35:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e3dadc8d-08bwOo.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-content/themes/pinnwebs/img/banner-pinnwebs.png
+[2024-08-15 16:35:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:10] [class-ss-page.php:118] Checking Content Identical:52779ff0f0f6188edbf5f581f3baf68b1a1931a1===. Value: FALSE
+[2024-08-15 16:35:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/about.jpg
+[2024-08-15 16:35:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 37
+[2024-08-15 16:35:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e3e1dd64-QVap9v.tmp
+[2024-08-15 16:35:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/about.jpg?simply_static_page=23
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/about.jpg?simply_static_page=23
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:103] Filesize: 1960650 bytes
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/pinnwebs/img/about.jpg
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e3e1dd64-QVap9v.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-content/themes/pinnwebs/img/about.jpg
+[2024-08-15 16:35:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:10] [class-ss-page.php:118] Checking Content Identical:7b4aec28b3d4868f35048692bab3c829f51d4ce9===. Value: FALSE
+[2024-08-15 16:35:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/5.png
+[2024-08-15 16:35:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 37
+[2024-08-15 16:35:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e3e9432b-v5Rng1.tmp
+[2024-08-15 16:35:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/5.png?simply_static_page=24
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/5.png?simply_static_page=24
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:103] Filesize: 34764 bytes
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/pinnwebs/img/5.png
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e3e9432b-v5Rng1.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-content/themes/pinnwebs/img/5.png
+[2024-08-15 16:35:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:10] [class-ss-page.php:118] Checking Content Identical:520393191586e94839d7c977bf7eb4014fecd6f7===. Value: FALSE
+[2024-08-15 16:35:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-content/uploads/2024/08/Pinnacle-Web-Solutions.png
+[2024-08-15 16:35:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 37
+[2024-08-15 16:35:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e3eebe0e-Y7qTrZ.tmp
+[2024-08-15 16:35:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-content/uploads/2024/08/Pinnacle-Web-Solutions.png?simply_static_page=25
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-content/uploads/2024/08/Pinnacle-Web-Solutions.png?simply_static_page=25
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:103] Filesize: 285448 bytes
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/08/Pinnacle-Web-Solutions.png
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e3eebe0e-Y7qTrZ.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-content/uploads/2024/08/Pinnacle-Web-Solutions.png
+[2024-08-15 16:35:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:11] [class-ss-page.php:118] Checking Content Identical:6413d5a4e5de65790715bb41b7d802f61792884b===. Value: FALSE
+[2024-08-15 16:35:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/script.js
+[2024-08-15 16:35:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 37
+[2024-08-15 16:35:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e3f52a3c-sBCxuA.tmp
+[2024-08-15 16:35:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-content/themes/pinnwebs/script.js?simply_static_page=26
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/script.js?simply_static_page=26
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:103] Filesize: 476 bytes
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/pinnwebs/script.js
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e3f52a3c-sBCxuA.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-content/themes/pinnwebs/script.js
+[2024-08-15 16:35:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:11] [class-ss-page.php:118] Checking Content Identical:0109ed53f7cc111b7026feba43f7b833929e0aa1===. Value: FALSE
+[2024-08-15 16:35:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-includes/js/dist/hooks.min.js
+[2024-08-15 16:35:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 37
+[2024-08-15 16:35:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e3fa5014-z1a4iP.tmp
+[2024-08-15 16:35:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-includes/js/dist/hooks.min.js?simply_static_page=27
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-includes/js/dist/hooks.min.js?simply_static_page=27
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
+[2024-08-15 16:35:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e3fa5014-z1a4iP.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-includes/js/dist/hooks.min.js
+[2024-08-15 16:35:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:12] [class-ss-page.php:118] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
+[2024-08-15 16:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-includes/js/dist/i18n.min.js
+[2024-08-15 16:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 37
+[2024-08-15 16:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e403fd03-Dtlm8M.tmp
+[2024-08-15 16:35:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-includes/js/dist/i18n.min.js?simply_static_page=28
+[2024-08-15 16:35:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-includes/js/dist/i18n.min.js?simply_static_page=28
+[2024-08-15 16:35:12] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
+[2024-08-15 16:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 16:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
+[2024-08-15 16:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e403fd03-Dtlm8M.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-includes/js/dist/i18n.min.js
+[2024-08-15 16:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:12] [class-ss-page.php:118] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
+[2024-08-15 16:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-08-15 16:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 37
+[2024-08-15 16:35:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e410e761-fil1cb.tmp
+[2024-08-15 16:35:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=29
+[2024-08-15 16:35:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=29
+[2024-08-15 16:35:13] [class-ss-url-fetcher.php:103] Filesize: 11513 bytes
+[2024-08-15 16:35:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 16:35:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-08-15 16:35:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e410e761-fil1cb.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-08-15 16:35:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:13] [class-ss-page.php:118] Checking Content Identical:ad12044651ffac0badcd0e42f32edef91678b1ff===. Value: FALSE
+[2024-08-15 16:35:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-08-15 16:35:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 37
+[2024-08-15 16:35:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e418e026-EoALnp.tmp
+[2024-08-15 16:35:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=30
+[2024-08-15 16:35:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=30
+[2024-08-15 16:35:13] [class-ss-url-fetcher.php:103] Filesize: 13423 bytes
+[2024-08-15 16:35:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-15 16:35:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-08-15 16:35:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e418e026-EoALnp.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-08-15 16:35:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:14] [class-ss-page.php:118] Checking Content Identical:0c8258ee3cbe887b0e77ff79db940fadfe56f95e===. Value: FALSE
+[2024-08-15 16:35:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/style.css
+[2024-08-15 16:35:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 37
+[2024-08-15 16:35:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e42143e3-8IfllE.tmp
+[2024-08-15 16:35:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-content/themes/pinnwebs/style.css?simply_static_page=31
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/style.css?simply_static_page=31
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:103] Filesize: 13683 bytes
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/pinnwebs/style.css
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e42143e3-8IfllE.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-content/themes/pinnwebs/style.css
+[2024-08-15 16:35:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:14] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-08-15 16:35:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:14] [class-ss-page.php:118] Checking Content Identical:4709bedcfc8cc203f42c6ba1af487151aa772046===. Value: FALSE
+[2024-08-15 16:35:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-includes/css/dist/block-library/style.min.css
+[2024-08-15 16:35:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 37
+[2024-08-15 16:35:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e426ef30-WHLlBB.tmp
+[2024-08-15 16:35:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-includes/css/dist/block-library/style.min.css?simply_static_page=32
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-includes/css/dist/block-library/style.min.css?simply_static_page=32
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:103] Filesize: 112419 bytes
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e426ef30-WHLlBB.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-includes/css/dist/block-library/style.min.css
+[2024-08-15 16:35:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:14] [class-ss-page.php:118] Checking Content Identical:2b24009fd37e79d4a601e6d53d615fd2cd0a606b===. Value: FALSE
+[2024-08-15 16:35:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-08-15 16:35:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 37
+[2024-08-15 16:35:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e42dc791-D59Mzq.tmp
+[2024-08-15 16:35:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=33
+[2024-08-15 16:35:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=33
+[2024-08-15 16:35:15] [class-ss-url-fetcher.php:103] Filesize: 2894 bytes
+[2024-08-15 16:35:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-15 16:35:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-08-15 16:35:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e42dc791-D59Mzq.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:15] [class-ss-page.php:118] Checking Content Identical:dbc9c4139e49d0d9fb41b7191aad1a2db6c555fd===. Value: FALSE
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/
+[2024-08-15 16:35:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 37
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/pages/6
+[2024-08-15 16:35:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 37
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/pages/6
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/xmlrpc.php
+[2024-08-15 16:35:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 37
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/xmlrpc.php
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/oembed/1.0/embed
+[2024-08-15 16:35:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 37
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/oembed/1.0/embed
+[2024-08-15 16:35:15] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:15] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 37 pages/files
+[2024-08-15 16:35:15] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-15 16:35:16] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-15 16:35:16] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-15 16:35:16] [class-ss-fetch-urls-task.php:69] Total pages: 55; Pages remaining: 18
+[2024-08-15 16:35:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/
+[2024-08-15 16:35:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 55
+[2024-08-15 16:35:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e44c9af4-Z9d3vk.tmp
+[2024-08-15 16:35:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/?simply_static_page=38
+[2024-08-15 16:35:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/?simply_static_page=38
+[2024-08-15 16:35:19] [class-ss-url-fetcher.php:103] Filesize: 28360 bytes
+[2024-08-15 16:35:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:19] [class-ss-url-fetcher.php:233] New filename for static page: /services/index.html
+[2024-08-15 16:35:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e44c9af4-Z9d3vk.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/services/index.html
+[2024-08-15 16:35:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:19] [class-ss-fetch-urls-task.php:159] Adding 36 URLs to the queue
+[2024-08-15 16:35:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:20] [class-ss-page.php:118] Checking Content Identical:467f85adfe5b49bc132f85519492cc1a7b5003be===. Value: FALSE
+[2024-08-15 16:35:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/portfolio/
+[2024-08-15 16:35:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 55
+[2024-08-15 16:35:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e482f785-wECZ9A.tmp
+[2024-08-15 16:35:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/portfolio/?simply_static_page=39
+[2024-08-15 16:35:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/portfolio/?simply_static_page=39
+[2024-08-15 16:35:21] [class-ss-url-fetcher.php:103] Filesize: 20003 bytes
+[2024-08-15 16:35:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:21] [class-ss-url-fetcher.php:233] New filename for static page: /portfolio/index.html
+[2024-08-15 16:35:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e482f785-wECZ9A.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/portfolio/index.html
+[2024-08-15 16:35:21] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:22] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-08-15 16:35:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:22] [class-ss-page.php:118] Checking Content Identical:2af2836c99f2b62ae65ffb6468d10d1f45c9bd97===. Value: FALSE
+[2024-08-15 16:35:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/website-maintenance-and-support/
+[2024-08-15 16:35:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 55
+[2024-08-15 16:35:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e4a6ac8f-sPa7VR.tmp
+[2024-08-15 16:35:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/website-maintenance-and-support/?simply_static_page=40
+[2024-08-15 16:35:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/website-maintenance-and-support/?simply_static_page=40
+[2024-08-15 16:35:24] [class-ss-url-fetcher.php:103] Filesize: 18553 bytes
+[2024-08-15 16:35:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:24] [class-ss-url-fetcher.php:233] New filename for static page: /services/website-maintenance-and-support/index.html
+[2024-08-15 16:35:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e4a6ac8f-sPa7VR.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/services/website-maintenance-and-support/index.html
+[2024-08-15 16:35:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:24] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:24] [class-ss-page.php:118] Checking Content Identical:68c627608d715518a0bf58f736c9fd56281d1be4===. Value: FALSE
+[2024-08-15 16:35:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/progressive-web-apps-pwa/
+[2024-08-15 16:35:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 55
+[2024-08-15 16:35:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e4d0e62d-CBiugE.tmp
+[2024-08-15 16:35:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/progressive-web-apps-pwa/?simply_static_page=41
+[2024-08-15 16:35:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/progressive-web-apps-pwa/?simply_static_page=41
+[2024-08-15 16:35:26] [class-ss-url-fetcher.php:103] Filesize: 18517 bytes
+[2024-08-15 16:35:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:26] [class-ss-url-fetcher.php:233] New filename for static page: /services/progressive-web-apps-pwa/index.html
+[2024-08-15 16:35:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e4d0e62d-CBiugE.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/services/progressive-web-apps-pwa/index.html
+[2024-08-15 16:35:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:26] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:26] [class-ss-page.php:118] Checking Content Identical:890e1c72cdda22d9975436db381d198094aeaa3d===. Value: FALSE
+[2024-08-15 16:35:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/database-design-and-management/
+[2024-08-15 16:35:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 55
+[2024-08-15 16:35:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e4eca386-YrPMJr.tmp
+[2024-08-15 16:35:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/database-design-and-management/?simply_static_page=42
+[2024-08-15 16:35:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/database-design-and-management/?simply_static_page=42
+[2024-08-15 16:35:28] [class-ss-url-fetcher.php:103] Filesize: 18547 bytes
+[2024-08-15 16:35:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:29] [class-ss-url-fetcher.php:233] New filename for static page: /services/database-design-and-management/index.html
+[2024-08-15 16:35:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e4eca386-YrPMJr.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/services/database-design-and-management/index.html
+[2024-08-15 16:35:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:29] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:29] [class-ss-page.php:118] Checking Content Identical:d6e1e273e9afe9936199b11d2992a888ae3ebb3f===. Value: FALSE
+[2024-08-15 16:35:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/frontend-development/
+[2024-08-15 16:35:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 55
+[2024-08-15 16:35:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e51abf45-06c76n.tmp
+[2024-08-15 16:35:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/frontend-development/?simply_static_page=43
+[2024-08-15 16:35:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/frontend-development/?simply_static_page=43
+[2024-08-15 16:35:30] [class-ss-url-fetcher.php:103] Filesize: 18487 bytes
+[2024-08-15 16:35:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:30] [class-ss-url-fetcher.php:233] New filename for static page: /services/frontend-development/index.html
+[2024-08-15 16:35:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e51abf45-06c76n.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/services/frontend-development/index.html
+[2024-08-15 16:35:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:31] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:31] [class-ss-page.php:118] Checking Content Identical:2012b7785c3e6fc2a6ebe4c181960c9a69f0b831===. Value: FALSE
+[2024-08-15 16:35:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/backend-development/
+[2024-08-15 16:35:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 55
+[2024-08-15 16:35:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e5386fb9-P5qPAf.tmp
+[2024-08-15 16:35:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/backend-development/?simply_static_page=44
+[2024-08-15 16:35:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/backend-development/?simply_static_page=44
+[2024-08-15 16:35:33] [class-ss-url-fetcher.php:103] Filesize: 18481 bytes
+[2024-08-15 16:35:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:33] [class-ss-url-fetcher.php:233] New filename for static page: /services/backend-development/index.html
+[2024-08-15 16:35:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e5386fb9-P5qPAf.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/services/backend-development/index.html
+[2024-08-15 16:35:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:34] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:34] [class-ss-page.php:118] Checking Content Identical:693ddcecbf2f6f03b15620eba9e5feb4053683cd===. Value: FALSE
+[2024-08-15 16:35:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/api-development-and-integration/
+[2024-08-15 16:35:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 55
+[2024-08-15 16:35:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e56384e8-gqQRzJ.tmp
+[2024-08-15 16:35:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/api-development-and-integration/?simply_static_page=45
+[2024-08-15 16:35:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/api-development-and-integration/?simply_static_page=45
+[2024-08-15 16:35:35] [class-ss-url-fetcher.php:103] Filesize: 18553 bytes
+[2024-08-15 16:35:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:35] [class-ss-url-fetcher.php:233] New filename for static page: /services/api-development-and-integration/index.html
+[2024-08-15 16:35:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e56384e8-gqQRzJ.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/services/api-development-and-integration/index.html
+[2024-08-15 16:35:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:36] [class-ss-page.php:118] Checking Content Identical:f85d826d335fadeabf28f65f4d30d5744949df3f===. Value: FALSE
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/33
+[2024-08-15 16:35:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 55
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/33
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/34
+[2024-08-15 16:35:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 55
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/34
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/35
+[2024-08-15 16:35:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 55
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/35
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/26
+[2024-08-15 16:35:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 55
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/26
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/32
+[2024-08-15 16:35:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 55
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/32
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/31
+[2024-08-15 16:35:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 55
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/31
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/other_serices/41
+[2024-08-15 16:35:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 55
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/other_serices/41
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/other_serices/40
+[2024-08-15 16:35:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 55
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/other_serices/40
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/other_serices/39
+[2024-08-15 16:35:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 55
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/other_serices/39
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/endless-constellation.svg
+[2024-08-15 16:35:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 55
+[2024-08-15 16:35:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e58c0c7f-f6O8gO.tmp
+[2024-08-15 16:35:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/endless-constellation.svg?simply_static_page=55
+[2024-08-15 16:35:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/wp-content/themes/pinnwebs/img/endless-constellation.svg?simply_static_page=55
+[2024-08-15 16:35:36] [class-ss-url-fetcher.php:103] Filesize: 1350 bytes
+[2024-08-15 16:35:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-08-15 16:35:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/pinnwebs/img/endless-constellation.svg
+[2024-08-15 16:35:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e58c0c7f-f6O8gO.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/wp-content/themes/pinnwebs/img/endless-constellation.svg
+[2024-08-15 16:35:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-15 16:35:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:37] [class-ss-page.php:118] Checking Content Identical:a045bf612dcc4dcf432c4545371ab904f2e91d6d===. Value: FALSE
+[2024-08-15 16:35:37] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 37 of 55 pages/files
+[2024-08-15 16:35:37] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-15 16:35:38] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-15 16:35:38] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-15 16:35:39] [class-ss-fetch-urls-task.php:69] Total pages: 70; Pages remaining: 15
+[2024-08-15 16:35:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/content-management-systems-cms/
+[2024-08-15 16:35:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 70
+[2024-08-15 16:35:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e5b21d5a-92kbJS.tmp
+[2024-08-15 16:35:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/content-management-systems-cms/?simply_static_page=56
+[2024-08-15 16:35:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/content-management-systems-cms/?simply_static_page=56
+[2024-08-15 16:35:40] [class-ss-url-fetcher.php:103] Filesize: 18553 bytes
+[2024-08-15 16:35:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:40] [class-ss-url-fetcher.php:233] New filename for static page: /services/content-management-systems-cms/index.html
+[2024-08-15 16:35:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e5b21d5a-92kbJS.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/services/content-management-systems-cms/index.html
+[2024-08-15 16:35:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:40] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:41] [class-ss-page.php:118] Checking Content Identical:17ec297e9f0506dad1f9903681fee7e31cbc809c===. Value: FALSE
+[2024-08-15 16:35:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/e-commerce-solutions/
+[2024-08-15 16:35:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 70
+[2024-08-15 16:35:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e5d266a7-gbkAu1.tmp
+[2024-08-15 16:35:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/e-commerce-solutions/?simply_static_page=57
+[2024-08-15 16:35:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/e-commerce-solutions/?simply_static_page=57
+[2024-08-15 16:35:43] [class-ss-url-fetcher.php:103] Filesize: 18487 bytes
+[2024-08-15 16:35:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:43] [class-ss-url-fetcher.php:233] New filename for static page: /services/e-commerce-solutions/index.html
+[2024-08-15 16:35:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e5d266a7-gbkAu1.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/services/e-commerce-solutions/index.html
+[2024-08-15 16:35:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:44] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:44] [class-ss-page.php:118] Checking Content Identical:8c345066b5274d8d2e365618c7169ec73e5c7fa3===. Value: FALSE
+[2024-08-15 16:35:44] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/services/ui-ux-design/
+[2024-08-15 16:35:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 70
+[2024-08-15 16:35:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e603b153-7kN1Dp.tmp
+[2024-08-15 16:35:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/services/ui-ux-design/?simply_static_page=58
+[2024-08-15 16:35:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/services/ui-ux-design/?simply_static_page=58
+[2024-08-15 16:35:45] [class-ss-url-fetcher.php:103] Filesize: 18601 bytes
+[2024-08-15 16:35:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:45] [class-ss-url-fetcher.php:233] New filename for static page: /services/ui-ux-design/index.html
+[2024-08-15 16:35:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e603b153-7kN1Dp.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/services/ui-ux-design/index.html
+[2024-08-15 16:35:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:46] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:46] [class-ss-page.php:118] Checking Content Identical:bc77625c1af0217820c07ee5d1b85d054c499c56===. Value: FALSE
+[2024-08-15 16:35:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/design_services/graphic-design/
+[2024-08-15 16:35:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 70
+[2024-08-15 16:35:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e624eeaa-Zc9enC.tmp
+[2024-08-15 16:35:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/design_services/graphic-design/?simply_static_page=59
+[2024-08-15 16:35:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/design_services/graphic-design/?simply_static_page=59
+[2024-08-15 16:35:47] [class-ss-url-fetcher.php:103] Filesize: 18493 bytes
+[2024-08-15 16:35:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:47] [class-ss-url-fetcher.php:233] New filename for static page: /design_services/graphic-design/index.html
+[2024-08-15 16:35:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e624eeaa-Zc9enC.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/design_services/graphic-design/index.html
+[2024-08-15 16:35:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:48] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:48] [class-ss-page.php:118] Checking Content Identical:41f527ca9bc563ad621a42a47536c4e94bb80651===. Value: FALSE
+[2024-08-15 16:35:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/design_services/landing-page-design/
+[2024-08-15 16:35:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 70
+[2024-08-15 16:35:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e64e70f1-NSAhPa.tmp
+[2024-08-15 16:35:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/design_services/landing-page-design/?simply_static_page=60
+[2024-08-15 16:35:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/design_services/landing-page-design/?simply_static_page=60
+[2024-08-15 16:35:50] [class-ss-url-fetcher.php:103] Filesize: 18523 bytes
+[2024-08-15 16:35:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:50] [class-ss-url-fetcher.php:233] New filename for static page: /design_services/landing-page-design/index.html
+[2024-08-15 16:35:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e64e70f1-NSAhPa.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/design_services/landing-page-design/index.html
+[2024-08-15 16:35:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:50] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:50] [class-ss-page.php:118] Checking Content Identical:08ba4c48736a495c1b8948c7c09309c1ad4dbb67===. Value: FALSE
+[2024-08-15 16:35:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/design_services/responsive-web-design/
+[2024-08-15 16:35:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 70
+[2024-08-15 16:35:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e66ce207-vE5ohF.tmp
+[2024-08-15 16:35:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/design_services/responsive-web-design/?simply_static_page=61
+[2024-08-15 16:35:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/design_services/responsive-web-design/?simply_static_page=61
+[2024-08-15 16:35:52] [class-ss-url-fetcher.php:103] Filesize: 18535 bytes
+[2024-08-15 16:35:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:52] [class-ss-url-fetcher.php:233] New filename for static page: /design_services/responsive-web-design/index.html
+[2024-08-15 16:35:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e66ce207-vE5ohF.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/design_services/responsive-web-design/index.html
+[2024-08-15 16:35:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:53] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:53] [class-ss-page.php:118] Checking Content Identical:75d0d11e4983e01fb1fa1c196fa6c27704e2d48e===. Value: FALSE
+[2024-08-15 16:35:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/design_services/ui-ux-design/
+[2024-08-15 16:35:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 70
+[2024-08-15 16:35:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-15 16:35:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e69546de-2baxGs.tmp
+[2024-08-15 16:35:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/design_services/ui-ux-design/?simply_static_page=62
+[2024-08-15 16:35:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/design_services/ui-ux-design/?simply_static_page=62
+[2024-08-15 16:35:54] [class-ss-url-fetcher.php:103] Filesize: 18481 bytes
+[2024-08-15 16:35:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:54] [class-ss-url-fetcher.php:233] New filename for static page: /design_services/ui-ux-design/index.html
+[2024-08-15 16:35:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e69546de-2baxGs.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656/design_services/ui-ux-design/index.html
+[2024-08-15 16:35:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-15 16:35:55] [class-ss-page.php:118] Checking Content Identical:07d7eb44c98745933b7373031e89f6a337e5d7c0===. Value: FALSE
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/pages/11
+[2024-08-15 16:35:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 70
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/pages/11
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/pages/85
+[2024-08-15 16:35:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 70
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/pages/85
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/services/23
+[2024-08-15 16:35:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 70
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/services/23
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/services/22
+[2024-08-15 16:35:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 70
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/services/22
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/services/21
+[2024-08-15 16:35:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 70
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/services/21
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/services/20
+[2024-08-15 16:35:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 70
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/services/20
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/services/19
+[2024-08-15 16:35:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 70
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/services/19
+[2024-08-15 16:35:55] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/services/18
+[2024-08-15 16:35:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 70
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/services/18
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 55 of 70 pages/files
+[2024-08-15 16:35:56] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-15 16:35:56] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-15 16:35:56] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:69] Total pages: 77; Pages remaining: 7
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/services/17
+[2024-08-15 16:35:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 77
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/services/17
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/services/16
+[2024-08-15 16:35:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 77
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/services/16
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/services/10
+[2024-08-15 16:35:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 77
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/services/10
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/30
+[2024-08-15 16:35:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 77
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/30
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/28
+[2024-08-15 16:35:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 77
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/28
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/29
+[2024-08-15 16:35:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 77
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/29
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/27
+[2024-08-15 16:35:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 77
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pinnwebs/wp-json/wp/v2/design_services/27
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-15 16:35:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 70 of 77 pages/files
+[2024-08-15 16:35:56] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-15 16:35:56] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-15 16:35:56] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-15 16:35:56] [class-ss-fetch-urls-task.php:69] Total pages: 77; Pages remaining: 0
+[2024-08-15 16:35:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 77 of 77 pages/files
+[2024-08-15 16:35:56] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-08-15 16:35:56] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-08-15 16:35:56] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-08-15 16:35:56] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-08-15 16:35:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Karu\AppData\Local\Temp/66be2e6cd3821-0LFnN6.tmp
+[2024-08-15 16:35:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pinnwebs/1723739757?simply_static_page=0
+[2024-08-15 16:35:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pinnwebs/1723739757?simply_static_page=0
+[2024-08-15 16:35:58] [class-ss-url-fetcher.php:103] Filesize: 16187 bytes
+[2024-08-15 16:35:58] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-08-15 16:35:58] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-08-15 16:35:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Karu\AppData\Local\Temp/66be2e6cd3821-0LFnN6.tmp to C:\xampp\htdocs\pinnwebs/wp-content/uploads\simply-static\temp-files/simply-static-1-1723739656\404/index.html
+[2024-08-15 16:35:58] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-08-15 16:35:59] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-08-15 16:35:59] [class-ss-page.php:118] Checking Content Identical:032e4ca226ccffe8d3a98d452f4f701594018eb3===. Value: FALSE
+[2024-08-15 16:35:59] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-08-15 16:35:59] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-08-15 16:36:00] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-08-15 16:36:00] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-08-15 16:36:00] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-08-15 16:36:00] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-08-15 16:36:01] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/pinnwebs/wp-content/uploads/simply-static/temp-files/simply-static-1-1723739656.zip">Click here to download</a>
+[2024-08-15 16:36:01] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-08-15 16:36:01] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-08-15 16:36:01] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-08-15 16:36:01] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-08-15 16:36:01] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-08-15 16:36:01] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-08-15 16:36:01] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-08-15 16:36:01] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:01:45
